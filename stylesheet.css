@@ -7,7 +7,7 @@
 /* Navbar */
 
 header {
-        background-color: #162c66;
+        background-color: #07044D;
         padding-bottom: 8px;
 }
 
@@ -27,6 +27,7 @@ header {
 
 .navbar-link {
         text-align: right;
+
 <<<<<<< HEAD
 
         padding-left: 20px;
@@ -48,10 +49,6 @@ body {
         margin-top: 0px;
         background-color: #DEDEDE;
         text-indent: 1em;
-}
-
-hoover {
-
 }
 
 
@@ -108,3 +105,38 @@ p.intro:first-line {
 a {
         text-decoration: none;
 }
+
+table{
+    border: 0;
+    border-spacing: 8px;
+    border-left: 10px;
+}
+
+th{
+    text-align: left;
+    font-family: tahoma;
+    font-size: 11pt;
+}
+
+td
+{
+    padding-left: 15px;
+    text-align:left;
+    text-indent: 0em;
+    font-family: Tahoma;
+    font-size: 11pt;
+}
+
+#nav, #feature, #footer {
+background-color: #efefef;
+padding: 10px;
+margin: 10px;}
+#footer {
+background-color: #efefef;
+padding: 10px;
+margin: 10px;}
+li {
+padding: 5px;
+display: inline;
+}
+
