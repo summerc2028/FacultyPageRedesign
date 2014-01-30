@@ -44,14 +44,14 @@ header {
 /* Body */
 
 body {
-	margin: 0px;
+	margin-top: 0px;
 	background-color: gray;
 }
 
 h1, h2, h3, a {
 	font-weight: normal;
 	color: #0088dd;
-	margin: 0px;
+	margin-top: 10px;
 }
 
 h1 {
