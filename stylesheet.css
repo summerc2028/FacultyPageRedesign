@@ -32,12 +32,18 @@ header {
 
 .navbar-link {
 	text-align: right;
+<<<<<<< HEAD
 	font-family: "helvetica neue";
 	font-size: 1.5em;
 	padding-left: 20px;
 	vertical-align: 8px;
 	text-transform: capitalize;
 	font-weight: bold;
+=======
+	font-family: "Gill Sans";
+	font-size: 1em;
+	padding-left: 36px;
+>>>>>>> 73ea319018eb99831f34f26d8cb2dc1ebf18b409
 }
 
 #logo {
