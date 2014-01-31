@@ -109,6 +109,10 @@ table {
 	border-spacing: 8px;
 	border-left: 10px;
 }
+
+.left-align-55{
+	margin-left: 55px;
+}
 table.center {
 	margin-left: auto;
 	margin-right: auto;
