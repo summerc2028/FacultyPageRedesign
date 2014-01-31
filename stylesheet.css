@@ -114,12 +114,19 @@ th {
 	font-size: 11pt;
 }
 
+
+
 td {
 	padding-left: 15px;
 	text-align: left;
 	text-indent: 0em;
 	font-family: Tahoma;
 	font-size: 11pt;
+}
+
+td.news {
+	width: 200px;
+	text-align: right;
 }
 
 
