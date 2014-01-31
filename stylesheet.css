@@ -26,10 +26,10 @@ header {
 }
 
 .navbar-link {
-	text-align: right;<<<<<<< HEAD
+	text-align: right;/*HEAD*/
 	padding-left: 20px;
 	vertical-align: 2px;
-	padding-left: 36px;>>>>>>> END OF HEAD
+	padding-left: 36px;/*END OF HEAD*/
 }
 
 #logo {
