@@ -46,6 +46,11 @@ body {
 	text-indent: 1em;
 }
 
+#profilepic-container {
+	background-color: #162c66;
+	padding: 10px;
+}
+
 h1, h2, h3, a {
 	font-weight: normal;
 	color: #162c66;
@@ -55,7 +60,7 @@ h1, h2, h3, a {
 h1 {
 	font-family: "Gill Sans", sans-serif;
 	font-size: 250%;
-	text-shadow: 2px 2px 3px #666666;
+	text-shadow: 2px 2px 3px #666;
 	padding-bottom: 10px;
 }
 
