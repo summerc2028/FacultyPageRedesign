@@ -40,6 +40,15 @@ a {
 	text-decoration: none;
 }
 
+#nav ul li {
+	display: inline;
+	padding: 20px;
+}
+
+.divider {
+	color: #333; /* off-black */
+}
+
  /* Body */
 
 body {
