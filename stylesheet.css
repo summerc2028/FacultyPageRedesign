@@ -1,4 +1,4 @@
-/* Global */
+/* Global Default Margin */
 
 * {
 	margin: 0px;
@@ -7,7 +7,7 @@
 /* Navbar */
 
 header {
-	background-color: #07044D;
+	background-color: #07044D; /* navy */
 	padding-bottom: 8px;
 }
 
@@ -16,56 +16,56 @@ header {
 	list-style-type: none;
 }
 
+.navbar-link {
+	vertical-align: 2px;
+	padding-left: 36px;
+}
+
 #navbar ul li {
+	padding: 5px;
 	display: inline;
 }
 
-#navbar ul li a {
+/* Hyperlinks */
+
+a:link {
+	color: #07044D; /* navy */
+}
+
+a:hover {
+	color: gray;
+}
+
+a {
 	text-decoration: none;
-	padding: 0em 0em;
 }
-
-.navbar-link {
-	text-align: right;/*HEAD*/
-	padding-left: 20px;
-	vertical-align: 2px;
-	padding-left: 36px;/*END OF HEAD*/
-}
-
-#logo {
-	text-align: left;
-}
-
-/*
 
  /* Body */
 
 body {
-	margin-top: 0px;
-	background-color: #DEDEDE;
+	background-color: #DEDEDE; /* light gray */
 	text-indent: 1em;
 }
 
-#profilepic-container {
-	background-color: #162c66;
+#profilepic-container { /* border around profile image */
+	background-color: #07044D; /* navy */
 	padding: 10px;
 }
 
 h1, h2, h3, a {
+	font-family: "Gill Sans", sans-serif;
 	font-weight: normal;
-	color: #162c66;
+	color: #07044D; /* navy */
 	margin-top: 10px;
 }
 
 h1 {
-	font-family: "Gill Sans", sans-serif;
 	font-size: 250%;
-	text-shadow: 2px 2px 3px #666;
+	text-shadow: 2px 2px 3px #666; /* gray text shadow */
 	padding-bottom: 10px;
 }
 
 h2 {
-	font-family: "Gill Sans", sans-serif;
 	font-size: 90%;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
@@ -82,42 +82,19 @@ h3 {
 p {
 	font-family: Arial, Verdana, sans-serif;
 	line-height: 1.4em;
-	color: #000000;
+	color: #333; /* off-black */
 }
 
-a:link {
-	color: #162c66;
-	background-color: transparent;
-	text-decoration: underline;
-}
-
-a:hover {
-	color: gray;
-	background-color: transparent;
-}
-
-p.intro:first-line {
-	font-weight: bold;
-}
-
-.credits {
-	font-style: italic;
-	text-align: right;
-}
-
-a {
-	text-decoration: none;
-}
+/* Tables */
 
 table {
-	border: 0;
 	border-spacing: 8px;
-	border-left: 10px;
 }
 
 .left-align-55{
 	margin-left: 55px;
 }
+
 table.center {
 	margin-left: auto;
 	margin-right: auto;
@@ -126,7 +103,7 @@ table.center {
 
 th {
 	text-align: left;
-	font-family: tahoma;
+	font-family: "Gill Sans";
 	font-size: 11pt;
 }
 
@@ -134,42 +111,26 @@ td {
 	padding-left: 15px;
 	text-align: left;
 	text-indent: 0em;
-	font-family: Tahoma;
-	font-size: 11pt;
+	font-family: "Gill Sans";
+	font-size: 1em;
 }
 
-td.news {
+/* Content */
+
+#nav ul h2 li {
+	padding: 5px;
+	display: inline;
+}
+
+.news, .awards, .teaching {
 	width: 200px;
 	text-align: right;
-}
-
-td.awards {
-	width: 200px;
-	text-align: right;
-}
-
-td.teaching {
-	width: 200px;
-	text-align: right;
-}
-
-td.feature {
-	text-align: center;
 }
 
 #nav, #feature, #footer {
-	background-color: #efefef;
-	padding: 10px;
+	background-color: #efefef; /* off-white */
+	padding: 20px 10px;
 	margin: 10px;
 	text-align: center;
-}
-
-b.color {
-	color: #0066cc;
-}
-
-li {
-	padding: 5px;
-	display: inline;
 }
 
