@@ -22,7 +22,7 @@ header {
 }
 
 #navbar ul li {
-	padding: 5px;
+	padding: 20px;
 	display: inline;
 }
 
@@ -80,10 +80,6 @@ h2 {
 	letter-spacing: 0.2em;
 }
 
-h2.foot {
-	font-size: 50%;
-}
-
 h3 {
 	font-size: 150%;
 }
@@ -136,10 +132,23 @@ td {
 	text-align: right;
 }
 
-#nav, #feature, #footer {
+#nav, #feature{
 	background-color: #efefef; /* off-white */
 	padding: 20px 10px;
 	margin: 10px;
 	text-align: center;
+}
+
+/* Footer */
+
+footer {
+	background-color: #efefef; /* off-white */
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	font-size: 50%;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
 }
 
