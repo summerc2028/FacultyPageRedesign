@@ -5,15 +5,43 @@ Manager Assignments
 -------------------
 Overall Manager
   Derek DiCillo - Refactor HTML, debug/comment bash script, CSS
+  
 Testing Manager
   Bryan D’Agostino - Test bash script, validate html, restyle webpage
+  
 Documentation Manager
   Boming Zhang - Test bash script, restyle webpage, document testing
+  
 Implementation Manager
   Amna Khan - Write html and CSS for web page, test bash script
+  
+Additional Team Member
   Summer Cui - Write bash script, debug/test bash script
 -------------------
 
-Faculty Web Page Redesign
+Part 1: Web Scraper
+===================
+  This script will search the jobsatosu site for jobs matching a specified keyword. The first 30 relevant jobs
+will be printed to the console in a neatly formatted table. The script will then prompt the user to quit or
+execute an additional query.
+
+Included Files:
 -------------------
-Kannan Srinivasan
+  SearchForJob.sh
+
+Usage instructions:
+-------------------
+  Ensure the "SearchForJob.sh" file has execution permissions (chmod if necessary)
+  It is recommended to run the terminal in windowed full-screen to ensure proper formatting of the results
+  Run "./SearchForJob.sh"
+  When prompted, type a word or phrase related to the job you are seeking (Alphanumeric characters only!)
+  Note: The results contain line items "related" to the search keyword. They do not necessarily contain the
+    keyword in the title.
+  When prompted type "q" to quit, or anything else to rerun the script
+  
+  
+
+Part 2: Faculty Web Page Redesign
+===================
+  Faculty Member: Kannan Srinivasan
+  See "Validation" folder for evidence of W3C standard HTML5 compliance
