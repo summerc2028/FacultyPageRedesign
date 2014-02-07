@@ -49,7 +49,7 @@ a {
 	color: #333; /* off-black */
 }
 
- /* Body */
+/* Body */
 
 body {
 	background-color: #DEDEDE; /* light gray */
@@ -72,6 +72,7 @@ h1 {
 	font-size: 250%;
 	text-shadow: 2px 2px 3px #666; /* gray text shadow */
 	padding-bottom: 10px;
+	margin-top: 25px;
 }
 
 h2 {
@@ -144,8 +145,34 @@ td {
 footer {
 	background-color: #efefef; /* off-white */
 	padding: 10px;
+	padding-bottom: 20px;
 	margin: 10px;
 	text-align: center;
 	font-size: 50%;
 }
 
+.head_margin_teaching{
+	margin-left: 150px;
+}
+
+.head_margin_news{
+	margin-left: 175px;
+}
+
+.head_margin_awards{
+	margin-left: 190px;
+}
+
+.h2{
+	font-weight: normal;
+	color: #162c66;
+	margin-top: 10px;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 90%;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.foot_margin{
+	margin-top: 45px;
+}
