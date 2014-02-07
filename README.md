@@ -1,3 +1,0 @@
-FacultyPageRedesign
-===================
-Kannan Srinivasan
